@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    font-size: 50p;
+    padding: o;
+    box-sizing: border-box;
+    }
+.container1{
+    background: url(./image/Untitled\ design-14.png);
+    background-position: right center;
+    background-size: 856px;
+    background-repeat: no-repeat;
+    background-color: #d2d2d2;
+    margin: 10px;
+    border-radius: 10px;
+    height: 629px;
+    object-fit:contain ;
+}
+.container1 .nav{
+    width: 100%s;
+    height: 88px;
+}
+.container1 .nav .logo{
+    width: 20px;
+}
+.container1 .nav .logo img{
+    height: 90px;
+    float: left;
+}
+.container1 .nav ul{
+  
+}
+.container1 .nav ul li{
+    list-style: none;
+    float: left;
+    margin-top: 32px;
+    margin-left: 113px;
+}
+.container1 .nav ul li a{
+    text-decoration: none;
+    margin-left: 104px;
+    color: #305f63;
+}
+.container1 .nav .btn{
+}
+.container1 .nav ul li:last-child a{
+    margin-top: -5px;
+    display: block;
+    margin-left: 201px;
+    background: white;
+    padding: 10px 45px;
+    border-radius: 22px;
+}
+
+.textarea{
+    width: 374px;
+    margin-left: 115px;
+    margin-top: 37px;
+    font-size: 30px;
+}
+.textarea h1{
+    font-size: 65px;
+    color: #305f63;
+}
+.textarea p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.in{}
+.in input {
+    margin-left: 113px;
+    margin-top: 32px;
+    height: 75px;
+    width: 572px;
+    border: none;
+    border-radius: 110px;
+    padding-left: 37px;
+}
+.in button {
+    background-color: #305f63;
+    color: white;
+    border: none;
+    border-radius: 54px;
+    padding: 20px 50px;
+}
+.nav .menu{
+   
+}
+
+.emailbox{}
+.emailbox .place{}
+.emailbox .place input{
+    margin-left: 113px;
+    margin-top: 51px;
+    height: 62px;
+    width: 521px;
+    padding-left: 24px;
+    border: none;
+    border-radius: 52px;
+    
+}
+.emailbox .place input:focus{
+    
+}
+.emailbox .buttn .btn2 {
+    position: absolute;
+    background: #315f63;
+    border: none;
+    color: white;
+    margin-left: 494px;
+    padding: 14px 30px;
+    border-radius: 20px;
+    margin-top: -52px;
+}
+.container2{}
+.container2 .feature{height: 300px;width: 1059px;}
+.container2 .feature h2{}
+.container2 .feature .img1{
+    float: left;
+    height: 160px;
+    width: 240px;
+    margin: 36px;
+    margin-left: 128px;
+    border-radius: 0px;
+}
+.container2 .feature .img2{
+    float: left;
+    height: 30px;
+    height: 156px;
+    width: 242px;
+    margin: 31px;
+}
+
+.container2 .feature .img3{
+    float: left;
+    height: 160px;
+    width: 240px;
+    margin: 36px;
+}
+.container2 .feature .img1 img{
+    width: 245px;
+    border-radius: 32px;
+}
+.container2 .feature .img2 img{
+    width: 250px;
+    border-radius: 30px;
+    height: 160px;
+}.container2 .feature .img3 img{
+    width: 252px;
+    border-radius: 30px;
+    height: 164px;
+}
+.container2 .heading{
+    margin-top: 40px;
+}
+.container2 .heading h2{
+    margin-left: 127px;
+}
+
+.popular{
+    width: 300px;
+    position: absolute;
+    /* border: 2px solid; */
+    top: 685px;
+    left: 1200px;
+}
+.popular .popular1{
+    margin-bottom: 23px;
+}
+.popular .lis{}
+.popular .lis ol{}
+.popular .lis ol li{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    list-style: none;
+}
+.popular .lis ol li span{
+    font-weight: normal;
+    line-height: 1.9;
+    color: #979d9f;
+}
+.lis ol {
+    counter-reset: list-counter; /* Initialize the counter */
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default padding */
+}
+
+.lis ol li {
+    counter-increment: list-counter; /* Increment counter for each list item */
+    position: relative; /* Allows absolute positioning of the counter */
+}
+
+.lis ol li::before {
+    content: counter(list-counter); /* Display counter */
+    position: absolute; /* Position the counter */
+    left: -72px; /* Adjust position to the left of the list item */
+    border: 1px solid #ccc8c8;
+    border-radius: 70px;
+    padding: 16px 22px;
+    font-weight: lighter;
+}
+
+.feature .img1 span{
+    color: #868686;
+}
+.feature .img2 span{
+    color: #868686;
+}
+.feature .img3 span{
+    color: #868686;
+}
