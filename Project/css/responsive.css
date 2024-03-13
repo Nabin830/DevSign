@@ -1,0 +1,211 @@
+html {overflow-x: hidden !important;}
+
+
+/************************************************************************************
+smaller than 1480 
+*************************************************************************************/
+
+@media screen and (max-width: 1480px) {
+	
+}
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width: 1366px) {
+	
+}
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width: 1280px) {
+	
+      
+}
+
+/************************************************************************************
+smaller than 1170 (the default size of the website)
+*************************************************************************************/
+
+@media screen and (max-width: 1170px) {
+    
+        div.wrapper {width: 90%;} 
+    
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+   
+    .page4 .page4-middle-content-lower{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+    .page4 .page4-middle-content-upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+    .page4 .page4-middle-content-upper .image1>img{
+        width: 55px;
+        margin-right: 10px;
+        border-radius:10px;
+        padding: -3px;
+    }
+    
+              .page4 .page4-middle-content-upper .image2>img{
+        width: 152px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-upper .image3>img{
+        width: 152px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-upper .image4>img{
+                width: 70px;
+                margin-right: 10px;
+                border-radius:10px;
+                }
+              .page4 .page4-middle-content-upper .image5>img{
+        width: 257px;
+        margin-right: 0px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-lower .image6>img{
+        width: 175px;
+        margin-right: 10px;
+        height: 55px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-lower .image7>img{
+        width: 64px;
+        height: 56px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-lower .image8>img{
+        height: 54px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-lower .image9>img{
+        height: 56px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+              .page4 .page4-middle-content-lower .image10>img{
+        height: 52px;
+        margin-right: 10px;
+        border-radius:10px;
+    }
+    .page3 .sales-section .box-content .right img{
+        margin-top: 33px;
+        width: 457px;
+    }
+    .page1-middle-content .left-middle-content .upper-left-middle-content h1 {
+        font-size: 40px;
+        }
+
+        .page1-middle-content .left-middle-content{
+            height: 380px;
+        }
+        .page1-middle-content{
+            height: 499px;
+        }
+        .page1-lower-content .page1-company-names-logo img{
+            height: 65px;
+            padding: 8px;
+            margin-left: 44px;
+            filter: grayscale(100%);
+        }
+
+.page2 .main-content .page2-top-content .page2-left-content h1 {
+            color: white;
+            font-size: 37px;
+            line-height: 1.4;
+                margin-top: 42px;
+                width: 453px;
+            }
+}
+.page3 .marketing .box-content-2 .right img {
+    margin-top: 34px;
+    width: 455px;
+}
+
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+    .page1 .nav .menu ul {
+        display: flex;
+        gap: 30px;
+        margin-left: 100px;
+        align-items: center;
+    }
+}
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width: 680px) {
+
+
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+
+}
+
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+	
+
+}
+
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+	
+	
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+}
