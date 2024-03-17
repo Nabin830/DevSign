@@ -1,0 +1,204 @@
+html {overflow-x: hidden !important;}
+
+
+/************************************************************************************
+smaller than 1480 
+*************************************************************************************/
+
+@media screen and (max-width: 1480px) {
+	
+}
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width: 1366px) {
+	
+}
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width: 1280px) {
+	
+      
+}
+
+/************************************************************************************
+smaller than 1170 (the default size of the website)
+*************************************************************************************/
+
+@media screen and (max-width: 1170px) {
+    .wrapper {width: 90%;}
+    .lower-content .lower-right-content  .cards{
+        width: 100%;
+        display: flex;
+        margin-left: 64px;
+        margin-top: -80px;
+    }
+
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+
+    div.wrapper {width: 90%;} 
+    .lower-content .lower-right-content  .cards{
+        width: 100%;
+        display: flex;
+        margin-left: 18px;
+        margin-top: -80px;
+    }
+}
+
+
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+
+}
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width: 680px) {
+    .upper-content .left-content .upper-left-content h1{
+        font-size: 30px;
+    }
+    .upper-content .bgimage{
+        width: 369px;
+        height: 322px;
+        background: url(./images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 335px;
+    }
+    .upper-content .left-content .upper-left-content .left-button button{
+        background: #4ec99a;
+        padding: 12px 35px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+    }
+    .lower-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .lower-content .lower-right-content  .cards{
+        width: 100%;
+        display: flex;
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+    .lower-content .lower-left-content h1{
+        font-size: 37px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .lower-content .lower-left-content p{
+        line-height: 1.4;
+        color: #839498;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+    .lower-content .lower-right-content  .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 0px;
+    }
+    .lower-content .lower-right-content  .cards .card1{
+        background: #f48fb1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 16px;
+        border-radius: 5px;
+        height: 322px;
+        margin-right: 18px;
+    }
+    .lower-content .lower-right-content  .cards .card2{
+        background: #ff8a65;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 16px;
+        border-radius: 5px;
+        width: 100%;
+        height: 292px;
+        margin-right: 18px;
+        margin-top: 20px;
+    }
+    .lower-content .lower-right-content  .cards .card3{
+        background: #4ac6d6;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 16px;
+        border-radius: 5px;
+        width: 100%;
+        height: 322px;
+        margin-left: -14px;
+        margin-top: 20px;
+    }
+}
+
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+	
+
+}
+
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+	
+	
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+
+}

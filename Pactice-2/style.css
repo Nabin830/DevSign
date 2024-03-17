@@ -1,0 +1,343 @@
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  html,
+  body {
+  width: 100%;
+  height: 100%;
+  }
+  .wrapper {
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    
+}
+                .main-container .upper-container{
+                    width: auto;
+                    height: 80%;
+                    background-color: green;
+                }
+                .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+                .navbar .logo{}
+                .navbar .logo img{}
+                .navbar .menus{}
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    font-family: "Rubik", sans-serif;
+                  }
+                  html,
+                  body {
+                  width: 100%;
+                  height: 100%;
+                  }
+                  .wrapper {
+                    width: 1170px;
+                    margin: 0px auto;
+                    display: flex;
+                    flex-direction: column;
+                  }
+                
+                
+                
+                .main-container{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+                                .main-container .upper-container{
+                                    width: auto;
+                                    height: 80%;
+                                    background-color: green;
+                                }
+                                .navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    height: 64px;
+                    align-items: center;
+                }
+                                .navbar .logo{}
+                                .navbar .logo img{}
+                                .navbar .menus{}
+                                .navbar .menus ul{
+                    display: flex;
+                    list-style: none;
+                    gap: 60px;
+                }
+                                .navbar .menus ul li{
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+                                .navbar .menus ul .loginbtn{}
+                                .navbar .menus ul .loginbtn >button{}
+                                .navbar .menus ul .registerbtn >button{}
+                              
+                               
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    font-family: "Rubik", sans-serif;
+                  }
+                  html,
+                  body {
+                  width: 100%;
+                  height: 100%;
+                  }
+                  .wrapper {
+                    width: 1170px;
+                    margin: 0px auto;
+                    display: flex;
+                    flex-direction: column;
+                  }
+                
+                
+                
+                .main-container{
+                    width: 100%;
+                    height: 100%;
+                    background: white;
+                }
+                                .main-container .upper-container{
+                                    width: auto;
+                                    height: 83%;
+                                    background-color: #d7f5dc;
+                                }
+                                .navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    height: 64px;
+                    align-items: center;
+                }
+                                .navbar .logo{}
+                                .navbar .logo img{}
+                                .navbar .menus{}
+                                .navbar .menus ul{
+                    display: flex;
+                    list-style: none;
+                    gap: 48px;
+                    align-items: center;
+                }
+                                .navbar .menus ul li{
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+                                .navbar .menus ul .loginbtn{
+                    background: transparent;
+                }
+                                .navbar .menus ul .loginbtn >button{
+                    background: transparent;
+                    border: 1px #00a744 solid;
+                    padding: 10px 29px;
+                    border-radius: 8px;
+                    font-size: 20px;
+                }
+                                .navbar .menus ul .registerbtn >button{
+                    padding: 10px 25px;
+                    background: #22b05a;
+                    border: none;
+                    border-radius: 8px;
+                    font-size: 20px;
+                    color: white;
+                }
+                              
+                .middle-conatiner{
+                    display: flex;
+                }
+                .middle-conatiner .left-container{
+                    margin-top: 134px;
+                }
+                .middle-conatiner .left-container h1{
+                    font-size: 51px;
+                }
+                .middle-conatiner .left-container p{
+                    margin-top: 15px;
+                    margin-bottom: 41px;
+                    font-size: 20px;
+                    line-height: 1.4;
+                }
+                .middle-conatiner .left-container .get-startedbtn{}
+                .middle-conatiner .left-container .get-startedbtn >button{
+                    background: #20af5a;
+                    border: none;
+                    padding: 23px 47px;
+                    font-size: 20px;
+                    color: white;
+                    border-radius: 16px;
+                }
+                .middle-conatiner .right-container img{
+                    
+                    height: 100%;
+                    margin-left: 68px;
+                    margin-top: 81px;
+                }
+                .middle-conatiner .right-container {
+                }
+                
+                .last-container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 144px;
+                }
+                .last-container .social{
+                    display: flex;
+                    gap: 131px;
+                }
+                .last-container .social img{
+                    width: 128px;
+                }
+                .navbar .menus ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+                .navbar .menus ul li{
+    font-weight: 500;
+    font-size: 20px;
+}
+                .navbar .menus ul .loginbtn{}
+                .navbar .menus ul .loginbtn >button{}
+                .navbar .menus ul .registerbtn >button{}
+              
+               
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  html,
+  body {
+  width: 100%;
+  height: 100%;
+  }
+  .wrapper {
+    width: 1350px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper2 {
+    width: 1439px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+                .main-container .upper-container{
+                    width: auto;
+                    height: 83%;
+                    background-color: #d7f5dc;
+                }
+                .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+                .navbar .logo{
+}
+                .navbar .logo img{
+    height: 29px;
+}
+                .navbar .menus{}
+                .navbar .menus ul{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    align-items: center;
+}
+                .navbar .menus ul li{
+    font-weight: 500;
+    font-size: 20px;
+}
+                .navbar .menus ul .loginbtn{
+    background: transparent;
+}
+                .navbar .menus ul .loginbtn >button{
+    background: transparent;
+    border: 1px #00a744 solid;
+    padding: 10px 29px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+                .navbar .menus ul .registerbtn >button{
+    padding: 10px 25px;
+    background: #22b05a;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+}
+              
+.middle-conatiner{
+    display: flex;
+}
+.middle-conatiner .left-container{
+    margin-top: 134px;
+}
+.middle-conatiner .left-container h1{
+    font-size: 51px;
+}
+.middle-conatiner .left-container p{
+    margin-top: 15px;
+    margin-bottom: 41px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.middle-conatiner .left-container .get-startedbtn{}
+.middle-conatiner .left-container .get-startedbtn >button{
+    background: #20af5a;
+    border: none;
+    padding: 23px 47px;
+    font-size: 20px;
+    color: white;
+    border-radius: 16px;
+}
+.middle-conatiner .right-container img{
+    height: 100%;
+    margin-left: 87px;
+    margin-top: 80px;
+}
+.middle-conatiner .right-container {
+}
+
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 144px;
+}
+.last-container .social{
+    display: flex;
+    gap: 171px;
+}
+.last-container .social img{
+    /* width: 121px; */
+    height: 50px;
+}
