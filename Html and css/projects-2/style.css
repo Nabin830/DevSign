@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+html,
+body {
+width: 100%;
+height: 100%;
+}
+.wrapper {
+  width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+.main-container{background: url(./Images/green\ circle.png) no-repeat;height: 107%;background-position: 126% 161%;}
+
+  
+  
+  
+  .navbar{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .navbar .nav-section-1{
+    display: flex;
+    gap: 210px;
+}
+  .navbar .nav-section-1 .logo{}
+  .navbar .nav-section-1 .logo img{
+    width: 207px;
+}
+  .navbar .nav-section-1 .logo h1{}
+  .navbar .nav-section-1 .menus{
+    display: flex;
+    align-items: center;
+}
+  .navbar .nav-section-1 .menus ul{
+    display: flex;
+    gap: 100px;
+}
+  .navbar .nav-section-1 .menus ul li{
+    list-style: none;
+    font-size: 19px;
+}
+  .navbar .nav-section-1 .menus ul li a{
+    text-decoration: none;
+    color: black;
+}
+  .navbar .shopme{}
+  .navbar .shopme img{
+    height: 30px;
+}
+.middle-container{
+    display: flex;
+}
+                    .middle-container .left-side{
+    margin-top: 303px;
+}
+                    .middle-container .left-side h1{
+    color: #549a0a;
+    font-size: 58px;
+}
+                    .middle-container .left-side p{
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+                    .middle-container .left-side .orderbtn{
+    margin-top: 29px;
+}
+                    .middle-container .left-side .orderbtn >button{
+    background: #549a0a;
+    padding: 13px 39px;
+    border: none;
+    border-radius: 22px;
+}
+                    .middle-container .right-side{
+    margin-top: 173px;
+    width: 38%;
+    margin-left: 421px;
+}
+                    .middle-container .right-side .food{
+    align-items: center;
+}
+                    .middle-container .right-side .food .istfood{margin-left: 80px;}
+                    .middle-container .right-side .food .istfood>img{}
+                    .middle-container .right-side .food .twofood{
+    display: flex;
+    margin-right: 64px;
+    gap: 27px;
+    justify-content: space-between;
+    position: absolute;
+    top: 44%;
+    left: 48.5%;
+}
+                    .middle-container .right-side .food .twofood>img{
+    margin-right: 285px;
+}
+                    .middle-container .right-side .main-food{
+    margin-right: 218px;
+}
+                    .middle-container .right-side .main-food>img{
+    margin-top: 136px;
+}
