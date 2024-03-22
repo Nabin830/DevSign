@@ -1,0 +1,15 @@
+.bulb{display: flex;}
+.bulb .bulbon{}
+.bulb .bulbon .onbulb{}
+.bulb .bulboff{}
+.bulb .bulboff .offbulb{}
+  
+
+.menus{
+    display: flex;
+    gap: 30px;
+}
+.menus button{
+    padding: 10px 30px;
+    border: 1px solid;
+}

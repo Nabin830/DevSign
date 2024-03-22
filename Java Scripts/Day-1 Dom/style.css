@@ -1,0 +1,56 @@
+.fan{
+    margin-top: 133px;
+    display: flex;
+    justify-content: center;
+    height: 269px;
+}
+.fan img{
+
+}
+.fanimage{
+    animation: rotate 1s linear infinite;
+   
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+  .stop{
+    animation-play-state: paused;
+  }
+  .one{
+    animation-duration: 0.75s;
+  }
+  .two{
+    animation-duration: 0.5s;
+  }
+  .three{
+    animation-duration: 0.3s;
+  }
+
+
+
+.menus{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px
+}
+.menus .stop{
+    border: 2px solid;
+    color: black;
+    padding: 10px 37px;
+}
+.menus .one{ border: 2px solid;
+    color: black;
+    padding: 10px 37px;}
+.menus .two{ border: 2px solid;
+    color: black;
+    padding: 10px 37px;}
+.menus .three{ border: 2px solid;
+    color: black;
+    padding: 10px 37px;}

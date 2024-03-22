@@ -1,0 +1,14 @@
+.bulb{
+    width: 500px;
+    height: 600px;
+    background: url(./Untitled\ design-21.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.on{
+    background: url(./Untitled\ design-20.png) no-repeat;
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+}
