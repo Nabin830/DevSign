@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="todo-app">
-        <header id="Header">
-            <h1>Todo List</h1>
-            <div class="add-task" id="addTaskBlock">
-                <img src="./images/add.svg" alt="">
-                <p>Add Task</p>
-            </div>
-            <div class="input-box">
-                <div class="input">
-                    <input  id="Title" type="text" placeholder="Title">
-                    <input id="Desc" type="text" placeholder="Description">
-                </div>
-                <div class="button">
-                    <button id="Cancel">Cancel</button>
-                    <button id="AddTask" >Add Task</button>
-                </div>
-            </div>
-        </header>
-        <ul class="todo-list" id="TodoList">
-           
-           
-        </ul>
-    </div>
-    <script src="./scripts/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="todo-app">
+      <header id="Header" >
+        <div class="app-search">
+          <h1>Todo List</h1>
+          <img id="SearchBtn" src="./images/icons8-search.svg" alt="">
+          <div id="SearchBox" class="search-box">
+            <input type="text " placeholder="Search" id="SearchTxt">
+            <img id="closeSearch" src="./images/icons8-close.svg" alt="">
+          </div>
+        </div>
+        <div class="add-task" id="addTaskBlock">
+          <img src="./images/add.svg" />
+          <p>Add Task</p>
+        </div>
+        <div class="input-box">
+          <div class="input">
+            <input id="Title" type="text" placeholder="Title" />
+            <input id="Desc" type="text" placeholder="Description" />
+          </div>
+          <div class="button">
+            <button id="Cancel">Cancel</button>
+            <button id="AddTask" class="addbtn">Add Task</button>
+          </div>
+        </div>
+      </header>
+      <ul class="todo-list" id="TodoList"></ul>
+      <div class="empty-task" id="EmptyTask">
+        <img src="./images/Empty-pana.svg" />
+        <p>You dont have task to do, you can add tasks here.</p>
+      </div>
+
+    </div>
+    <script src="./scripts/scripts.js"></script>
+  </body>
 </html>
