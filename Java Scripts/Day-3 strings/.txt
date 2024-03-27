@@ -1,0 +1,3 @@
+.indexOf() = it counts the position of the string form the forward side.
+.LastindexOf() = it counts the position of the string form the backward side.
+.slice(value,value) = it slice the string from the given sentences.
