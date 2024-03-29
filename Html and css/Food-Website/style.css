@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    width: 1550px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper-2 {
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    background: #21253d;
+  }
+  .hero-section .navbar {
+    background: #21253d;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+  }
+  .hero-section .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  .hero-section .navbar .logo img {
+  }
+  .hero-section .navbar .menus {
+    display: flex;
+    align-items: center;
+  }
+  .hero-section .navbar .menus ul {
+    display: flex;
+    gap: 155px;
+    list-style: none;
+  }
+  .hero-section .navbar .menus ul li {
+    color: white;
+  }
+  .hero-section .navbar .menus ul li a {
+  }
+  .hero-section .navbar .searchi {
+    display: flex;
+    align-items: center;
+  }
+  .hero-section .navbar .searchi img {
+    height: 36px;
+    /* align-items: center; */
+  }
+  
+  .hero-section .hero-image {
+    background-image: url(./images/hero.jpg);
+    height: 893px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .hero-image {
+  }
+  .hero-image .hero-left-content {
+    width: 50%;
+    position: absolute;
+    margin-top: 218px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+  }
+  .hero-image .hero-left-content h1 {
+    font-size: 165px;
+    color: white;
+  }
+  .hero-image .hero-left-content p {
+    color: white;
+    font-size: 30px;
+  }
+  .hero-image .hero-button {
+    position: absolute;
+    margin-top: 630px;
+  }
+  .hero-image .hero-button button {
+    padding: 16px 66px;
+    background: #21253d;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .popular-menu {
+    background-color: #21253d;
+    height: 714px;
+  }
+  .popular-menu .pm-upper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    margin-bottom: 66px;
+    color: white;
+  }
+  .popular-menu .pm-upper h1 {
+    font-size: 57px;
+    margin-top: 61px;
+  }
+  .popular-menu .pm-upper p {
+    font-size: 24px;
+  }
+  .popular-menu .pm-lower {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .popular-menu .pm-lower ul {
+    display: flex;
+    width: 100%;
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+  .popular-menu .pm-lower li {
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+  }
+  .popular-menu .pm-lower li img {
+    border-radius: 130px;
+  }
+  .popular-menu .pm-lower li h3 {
+    /* margin-top: 26px; */
+    font-size: 27px;
+  }
+  .popular-menu .pm-lower li p {
+    text-align: center;
+  }
+  
+  .food-1 {
+    height: 712px;
+    background: #ffd17e;
+  }
+  .food-1 .food-1-content {
+    display: flex;
+    margin-top: 156px;
+  }
+  .food-1 .food-1-content .food-1-left {
+    width: 50%;
+  }
+  .food-1 .food-1-content .food-1-left img {
+    height: 459px;
+    border-radius: 265px;
+  }
+  .food-1 .food-1-right {
+    width: 50%;
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .food-1 .food-1-content .food-1-right h1 {
+    font-size: 86px;
+  }
+  .food-1 .food-1-content .food-1-right p {
+    font-size: 24px;
+  }
+  .food-1 .food-1-content .food-1-right .food-1-button {
+  }
+  .food-1 .food-1-content .food-1-right .food-1-button button {
+    padding: 16px 66px;
+    background: #21253d;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .stat {
+      background-color: #21253d;
+    height: 714px;
+  }
+  .stat .s-upper {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+      margin-bottom: 89px;
+      color: white;
+  }
+  
+  .stat .s-upper h1 {font-size: 57px;
+      margin-top: 61px;
+  }
+  .stat .s-upper p {font-size: 24px;
+  }
+  .stat .s-lower {display: flex;
+      margin-bottom: 30px;
+  }
+  .stat .s-lower ul {
+      display: flex;
+    width: 100%;
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+  .stat .s-lower ul li {height: 250px;width: 250px;border: 2px solid white;/* text-align: center; */display: flex;flex-direction: column;align-items: center;justify-content: center;border-radius: 124px;color: white;}
+  .stat .s-lower ul li h1 {font-size: 65px;}
+  .stat .s-lower ul li p {font-size: 49px;text-transform: uppercase;font-weight: 600;}
+  
+
+  .food-1 .food-1-content .food-2-left {
+    width: 50%;
+  }
+  .food-1 .food-1-content .food-2-left img {
+    height: 459px;
+    border-radius: 265px;
+    margin-left: 197px;
+    }
+
+
+    .feedback{
+        background-image: url(./images/background.jpg);
+        height: 712px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+
+
+ 
+
+    .feedback-content{
+    height: 712px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-content img{
+    height: 250px;
+    width: 250px;
+    border-radius: 159px;
+}
+.feedback-content p{
+    width: 41%;
+    text-align: center;
+    font-size: 33px;
+}
+.feedback-content h3{
+    font-size: 40px;
+}
+.search{
+    height: 712px;
+    background: #ffd17e;
+}
+.search .search-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 712px;
+}
+.search .search-content h1{
+    font-size: 77px;
+    margin-top: -125px;
+}
+.search .search-content p{
+    font-size: 30px;
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
+}
+.search .search-content .subscribe{
+    background: white;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    border-radius: 28px;
+}
+.search .search-content .subscribe input{padding-left: 57px;width: 403px;border: none;border-radius: 33px;font-size: 20px;color: #acacac;}
+.search .search-content .subscribe button{
+    padding: 16px 66px;
+    background: #21253d;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 22px;
+  }
