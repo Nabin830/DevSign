@@ -46,7 +46,6 @@ let fruits = ['apple', 'banana', 'orange', 'mango', 'kiwi'];
 // var EvenNumbers = [];
 
 // numbers.forEach(isEven); // callback = isEven (element, index, array)
-
 // function isEven (number, i) {
 //     if (number % 2 == 0) EvenNumbers.push(number);
 // }
