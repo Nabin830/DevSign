@@ -81,6 +81,11 @@
 
 // // push/pop, shift/unshift
 // // for..loop, for..of, forEach, filter
+
+
+
+
+
 // //   map()
 // let myNumber = [1,4,9];
 

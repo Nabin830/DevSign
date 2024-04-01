@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// let fruits = ['apple', 'banana', 'orange',  'kiwi'];
+// let numbers = [0,1,2,3,4,5,6,7,8,9,10];
+            // //push
+            // fruits.push('mango')
+            // console.log(fruits)
+
+            // //pull
+            // fruits.pop()
+            // console.log(fruits)
+
+            // //unshift
+            // fruits.unshift('mango')
+            // console.log(fruits)
+
+            // //shift
+            // fruits.shift()
+            // console.log(fruits)
+
+
+
+
+
+            // Looping of array
+
+
+
+
+            //for Loop
+
+            // let evenNumbers=[]
+            // for( let i=0 ; i < numbers.length ;i++
+            // ){
+            //     if(numbers[i] % 2 == 0){
+            //         evenNumbers.push(numbers[i])
+            //     }
+            // }
+            // console.log(evenNumbers)
+
+
+            // for of
+
+            // let evenNumbers = []
+            // for(let number of numbers){
+            //     if(number % 2 == 0){
+            //          evenNumbers.push(number)
+            //   }
+            // }
+            // console.log(evenNumbers)
+
+
+
+
+
+            //forEach
+
+            // let evenNumbers =[]
+            // numbers.forEach((num)=>{
+            //     if(num % 2 == 0){
+            //        evenNumbers.push(num)
+            //     }
+            // })
+            // console.log(evenNumbers)
+
+
+
+
+
+
+            //Filter
+          
+            //   let newArray = fruits.filter((fruit) =>{
+            //     if(fruit.length > 4){
+            //         return fruit;
+            //     }
+
+            // })
+            //     console.log(newArray)
+
+            // Problem
+            // let word = 'cat';
+            // let myArray = ['cat', 'dog', 'concat', 'white', 'blue'];
+             
+            // let newArray = myArray.filter(ele =>{
+            //     if(ele.includes(word)){
+            //         return ele;
+            //     }
+            // })
+            // console.log(newArray)
+
+
+
+            // every
+
+
+
+            // let StudentAge = [ 12,17,78,54,34,23,15]
+            // let result = StudentAge.every((age) => {
+            //     if(age > 18)
+            //     return age
+            // })
+            //     console.log(result)
+
+            // some
+
+            // let StudentAge = [ 12,17,78,54,34,23,15]
+            // let result = StudentAge.some((age)=>{
+            //     if(age > 18){
+            //         return age
+            //     }
+            // })
+            // console.log(result)
+
+
+                //map
+
+                // let myNumber = [1,4,9];
+                // let root = myNumber.map((num)=>{
+                //     return Math.sqrt(num)
+                // })
+                // console.log(root)
+
+
+
+                // array Methords
+
+                //concat
+
+                // let arr1 =[2,4,6]
+                // let arr2 = [0,7,9]
+                // let arr3 =[]
+                // console.log(arr3.concat(arr1,arr2))
+
+
+
+                //includes
+
+
+                let fruits = ['apple', 'banana', 'orange', 'mango', 'kiwi'];
+                // console.log(fruits.includes('apple'))
+
+
+
+                // indexOf
+
+                // console.log(fruits.indexOf('kiwi'))
+
+
+
+                //join
+
+                // console.log(fruits.join())
+
+
+
+                //reverse
+
+
+                // console.log(fruits.reverse())
+
+
+
+                //slice
+
+                // console.log(fruits.slice(1,3))
+
+
+
+                //splice
+                // let months =['JAN','FEB','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
+                // console.log(months.splice(2,1,'MAR'))
+                // console.log(months)
+
+
+                //problem
+
+                let ProblemArray = [-1,2,-4,-6,2,3,4,2,5,8,2,7,1]
+                let positiveArray = []
+                Array1=[]
+                Array2=[]
+                conc =[]
+
+                positiveArray = ProblemArray.filter((num) => {
+                    if(num > 0)
+                    return num
+                }
+                ).forEach((num) => {
+                    if(num == 2){Array1.push(num)
+
+                    }else{
+                        Array2.push(num)
+                    }
+                })
+                conc = conc.concat(Array1,Array2)
+                console.log(conc)
+              
+                
+                
+
+
+            
+
+
+
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
