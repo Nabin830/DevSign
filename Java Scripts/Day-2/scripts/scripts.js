@@ -50,24 +50,24 @@ TodoList.addEventListener("click", function (e) {
     task.classList.toggle("complete");
   }
 });
-// function createTaskList(title, description) {
-//   let li = document.createElement("li");
-//   let radio = document.createElement("div");
-//   radio.classList.add("radio");
-//   let content = document.createElement("div");
-//   content.classList.add("content");
-//   let h3 = document.createElement("h3");
-//   h3.innerText = title;
-//   let p = document.createElement("p");
-//   p.innerText = description;
-//   content.append(h3, p);
-//   let action = document.createElement("div");
-//   action.classList.add("action");
-//   action.innerHTML = '<img src="./images/edit.svg" />';
-//   action.innerHTML = '<img src="./images/delete.svg" />';
-//   li.append(radio, content, action);
-//   return li;
-// }
+function createTaskList(title, description) {
+  let li = document.createElement("li");
+  let radio = document.createElement("div");
+  radio.classList.add("radio");
+  let content = document.createElement("div");
+  content.classList.add("content");
+  let h3 = document.createElement("h3");
+  h3.innerText = title;
+  let p = document.createElement("p");
+  p.innerText = description;
+  content.append(h3, p);
+  let action = document.createElement("div");
+  action.classList.add("action");
+  action.innerHTML = '<img src="./images/edit.svg" />';
+  action.innerHTML = '<img src="./images/delete.svg" />';
+  li.append(radio, content, action);
+  return li;
+}
 
 function createTaskList(title, description) {
   let li = `<li class="animate__animated animate__backInLeft">
